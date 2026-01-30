@@ -1,0 +1,11 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(90deg, #EAD8D8 0%, #B2A4D4 35%, #D8A7B1 100%);
+}
+
+h1 {
+    display: flex;
+    
+}
