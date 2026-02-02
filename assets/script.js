@@ -7,12 +7,12 @@ function onClickAddButton() {
         alert("Task to be added should not be empty!");
         return;
     }
-}
 var newItemEl = document.createElement("div");
     newItemEl.textContent = taskInput.value;
 
 taskContainer.appendChild(newItemEl);
 taskInput.value="";
+}
 
 addButton.addEventListener("click", onClickAddButton);
 
