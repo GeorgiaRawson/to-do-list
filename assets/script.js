@@ -11,15 +11,12 @@ var newItemEl = document.createElement("li");
 
 var checkbox = document.createElement("input");
 checkbox.type="checkbox";
-
-checkbox.onchange = function () {
     var completedList = document.getElementById("completed-tasks");
     if (this.checked) { 
         completedList.appendChild(newItemEL);} 
         else {
             taskContainer.appendChild(newItemEL);
-        }
-};
+        };
 var label = document.createElement("label");
 label.textContent = taskInput.value; 
 
