@@ -13,9 +13,9 @@ var checkbox = document.createElement("input");
 checkbox.type="checkbox";
     var completedList = document.getElementById("completed-tasks");
     if (this.checked) { 
-        completedList.appendChild(newItemEL);} 
+        completedList.appendChild(newItemEl);} 
         else {
-            taskContainer.appendChild(newItemEL);
+            taskContainer.appendChild(newItemEl);
         };
 var label = document.createElement("label");
 label.textContent = taskInput.value; 
@@ -36,7 +36,7 @@ editButton.onclick = function() {
 newItemEl.appendChild(checkbox);
 newItemEl.appendChild(label);
 newItemEl.appendChild(editButton);
-newItemEL.appendChild(deleteButton);
+newItemEl.appendChild(deleteButton);
 
 taskContainer.appendChild(newItemEl); 
 
